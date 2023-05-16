@@ -28,5 +28,5 @@ for contador in range(0,3):
 # OUTRA FORMA DE ACESAR DICIONARIO
 for linha in grupo:
     for elemento in linha.values():
-        print(f"{elemento}", end=" --")
+        print(f"{elemento}", end="--")
     print()

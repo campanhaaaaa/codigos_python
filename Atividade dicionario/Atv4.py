@@ -12,3 +12,6 @@ for contador in range(2):
     musica.clear()
 
 print(playlist)
+for linha in playlist:
+    for chave, valor in linha.items():
+        print(f"{chave}: artista = {valor["artista"]} duracao:{valor["duracao"]}")

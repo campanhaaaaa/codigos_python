@@ -31,5 +31,5 @@ class Eletronico(Produto):
         print(f"Eletronico: {self._nome} - marca: {self._marca}\n")
 
     def calcularPreco(self):
-        print(f"O Eletronico custa R$ {self._preco*1.2}")
+        print(f"O Eletronico custa R$ {self._preco*1.2 }")
         
